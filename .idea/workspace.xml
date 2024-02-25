@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create new programm">
-      <change afterPath="$PROJECT_DIR$/First/Parcing_sites.py" afterDir="false" />
+    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites">
+      <change afterPath="$PROJECT_DIR$/First/Constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708429210508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create module parcins_sites">
+      <option name="closed" value="true" />
+      <created>1708775186253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708775186253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new programm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new programm" />
+    <MESSAGE value="Create module parcins_sites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites" />
   </component>
 </project>
