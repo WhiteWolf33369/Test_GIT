@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites">
-      <change afterPath="$PROJECT_DIR$/First/Constants.py" afterDir="false" />
+    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py">
+      <change afterPath="$PROJECT_DIR$/First/Checking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Test_GIT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test_GIT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First/Parcing_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Parcing_sites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First/Something_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Something_first.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Checking.executor": "Run",
+    "Python.Constants.executor": "Run",
+    "Python.Parcing_sites.executor": "Run",
+    "Python.Something_first.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,7 +84,39 @@
       <option name="project" value="LOCAL" />
       <updated>1708775186253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create module parcins_sites&#10;Create file Constants.py">
+      <option name="closed" value="true" />
+      <created>1708857683323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708857683323</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create module parcins_sites&#10;Create file Constants.py">
+      <option name="closed" value="true" />
+      <created>1708857930833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708857930833</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create module parcins_sites&#10;Create file Constants.py">
+      <option name="closed" value="true" />
+      <created>1708858110132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708858110132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create module parcins_sites&#10;Create file Constants.py">
+      <option name="closed" value="true" />
+      <created>1708858167965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708858167965</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +133,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new programm" />
     <MESSAGE value="Create module parcins_sites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites" />
+    <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/First/Parcing_sites.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
