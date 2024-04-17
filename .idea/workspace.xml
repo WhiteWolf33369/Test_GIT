@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py">
-      <change afterPath="$PROJECT_DIR$/First/Checking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Test_GIT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test_GIT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First/Parcing_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Parcing_sites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First/Something_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Something_first.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Алишер/PycharmProjects/Test_GIT/First/Checking.py",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -116,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708858167965</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.">
+      <option name="closed" value="true" />
+      <created>1712830614099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712830614099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +138,8 @@
     <MESSAGE value="Create new programm" />
     <MESSAGE value="Create module parcins_sites" />
     <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py" />
+    <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
