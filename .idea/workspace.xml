@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.">
+    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First/Parcing_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Parcing_sites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First/Something_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Something_first.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Checking.executor": "Run",
-    "Python.Constants.executor": "Run",
-    "Python.Parcing_sites.executor": "Run",
-    "Python.Something_first.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Алишер/PycharmProjects/Test_GIT/First/Checking.py",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Checking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Constants.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Parcing_sites.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Something_first.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Алишер/PycharmProjects/Test_GIT/First/Checking.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712830614099</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.">
+      <option name="closed" value="true" />
+      <created>1713378889171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713378889171</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,17 +148,7 @@
     <MESSAGE value="Create module parcins_sites" />
     <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py" />
     <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/First/Parcing_sites.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http." />
   </component>
 </project>

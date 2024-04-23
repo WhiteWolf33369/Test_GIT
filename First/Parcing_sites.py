@@ -38,7 +38,7 @@ class Virtualsite:
         with open('./page_%d.html' % (page), 'w', encoding="utf-8") as output_file:
             #output_file.write(str(self.req.text.encode('utf-8')))
             output_file.write(str(soup))
-    def dynamic_request(self, st_accept="text/html",st_referer="", st_useragent="", src="", site='', page = 1):
+    def dynamic_request(self, st_accept="text/html",st_referer="", st_useragent="", src="", site='', page=1):
         #self.headers = {"Accept": st_accept,
         #                "User-Agent": st_useragent}
         src1 = src + site
@@ -55,21 +55,27 @@ class Virtualsite:
         #driver.implicitly_wait(20)
         #input('Press to print web page')
         self.req = driver.page_source
+        time.sleep(20)
         soup = BeautifulSoup(str(self.req), "html.parser")
-        print(str(soup))
-        str_page = str(page)
+        #print(str(soup))
+        #str_page = str(page)
         with open('./page_%d.html' % (page), 'w', encoding="utf-8") as output_file:
         # output_file.write(str(self.req.text.encode('utf-8')))
             output_file.write(str(soup))
+        driver.close()
     # Получение значения нужных переменных
-    def get_count(self, *variable):
+    def get_count(self, day = ""):
         soup = BeautifulSoup(str(self.req),'html.parser')
-        title = soup.find('div',{'class':'app_content'})
-        items = title.find_all('div',{'class':['item', 'item even']})
+        #title = soup.find('span',{'class':'app_content'})
+        items = soup.find_all('span',{'class':["s__FVoTcD1TH6rgNduZuYgA s__oXVxdY01BRdRDR1BPVh_ "
+                                                "s__DhnUWRq_dnfbyy1pfoX2 s__sNYAKy6VBDAUbuW4TLqO", 'data-test-id']})
+        list_of_times = []
         for item in items:
-            time = item.find('div', {'class': 'date'}).text
+            #time = item.find('span', {'class': ["s__FVoTcD1TH6rgNduZuYgA s__oXVxdY01BRdRDR1BPVh_ "
+            #                                    "s__DhnUWRq_dnfbyy1pfoX2 s__sNYAKy6VBDAUbuW4TLqO", 'data-test-id']})
+            list_of_times.append(item.text)
 
-        return soup
+        return list_of_times
         #tree = html.fromstring(str(self.req))
         #title_lxml = tree.xpath('//div[@class = "app_content"]')[0]
 

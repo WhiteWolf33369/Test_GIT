@@ -25,16 +25,18 @@ import requests
 #with open('./page_%d.html'% (page), 'w') as output_file:
     #soup = BeautifulSoup()
 tickets = ps.Virtualsite('', '', '')
-daterange = ps.data_range('03/02/2023','07/02/2023')
+daterange = ps.data_range('09/05/2023','10/05/2023')
 date_list = list()
+list_of_date_times = list()
 i = 0
+index = 0
 for simple_date in daterange:
-    i =+ 1
     str_simple_data = str(simple_date)
     date_list.append(str(simple_date))
 print(date_list)
 for date in date_list:
     tickets.dynamic_request(st_useragent= cs.BRAUSERS[2], src=str(cs.SITES), site=cs.CITIES['Москва'] + date +\
-    cs.CITIES['Ханой'] + '1' + '?request_source=search_form', page=1)
-
+    cs.CITIES['Ханой'] + '1' + '?request_source=search_form', page=int(date))
+    list_of_date_times.append(tickets.get_count())
+print(list_of_date_times)
 
