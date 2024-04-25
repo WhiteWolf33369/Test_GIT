@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First/Parcing_sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Parcing_sites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First/Something_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Something_first.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

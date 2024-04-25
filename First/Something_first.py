@@ -27,7 +27,8 @@ import requests
 tickets = ps.Virtualsite('', '', '')
 daterange = ps.data_range('09/05/2023','10/05/2023')
 date_list = list()
-list_of_date_times = list()
+list_of_fly = list()
+list_of_arrival = list()
 i = 0
 index = 0
 for simple_date in daterange:
@@ -37,6 +38,6 @@ print(date_list)
 for date in date_list:
     tickets.dynamic_request(st_useragent= cs.BRAUSERS[2], src=str(cs.SITES), site=cs.CITIES['Москва'] + date +\
     cs.CITIES['Ханой'] + '1' + '?request_source=search_form', page=int(date))
-    list_of_date_times.append(tickets.get_count())
-print(list_of_date_times)
+    list_of_fly.append(tickets.get_count())
+print(list_of_fly)
 
