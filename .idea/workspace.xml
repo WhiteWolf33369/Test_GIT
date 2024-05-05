@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.">
+    <list default="true" id="0c11870a-03ae-4b0f-94d9-2f7a44d28619" name="Changes" comment="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.&#10;Добавил лист прибытия.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First/Something_first.py" beforeDir="false" afterPath="$PROJECT_DIR$/First/Something_first.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713378889171</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.">
+      <option name="closed" value="true" />
+      <created>1714037601417</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714037601417</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.&#10;Добавил лист прибытия.">
+      <option name="closed" value="true" />
+      <created>1714907231501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714907231501</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +163,7 @@
     <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py" />
     <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список." />
     <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http." />
+    <MESSAGE value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.&#10;Добавил лист прибытия." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create module parcins_sites&#10;Create file Constants.py&#10;Реализован перебор дат в нужном формате с занесением в список.&#10;Переименовал переменные в листе с датами для адреса http.&#10;Добавил лист прибытия." />
   </component>
 </project>

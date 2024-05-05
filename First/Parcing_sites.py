@@ -64,11 +64,11 @@ class Virtualsite:
             output_file.write(str(soup))
         driver.close()
     # Получение значения нужных переменных
-    def get_count(self, day = ""):
+    def get_count(self, name='span', attrs={'class':["s__FVoTcD1TH6rgNduZuYgA s__oXVxdY01BRdRDR1BPVh_ "
+                                                "s__DhnUWRq_dnfbyy1pfoX2 s__sNYAKy6VBDAUbuW4TLqO", 'data-test-id']}):
         soup = BeautifulSoup(str(self.req),'html.parser')
         #title = soup.find('span',{'class':'app_content'})
-        items = soup.find_all('span',{'class':["s__FVoTcD1TH6rgNduZuYgA s__oXVxdY01BRdRDR1BPVh_ "
-                                                "s__DhnUWRq_dnfbyy1pfoX2 s__sNYAKy6VBDAUbuW4TLqO", 'data-test-id']})
+        items = soup.find_all(name,attrs)
         list_of_times = []
         for item in items:
             #time = item.find('span', {'class': ["s__FVoTcD1TH6rgNduZuYgA s__oXVxdY01BRdRDR1BPVh_ "
